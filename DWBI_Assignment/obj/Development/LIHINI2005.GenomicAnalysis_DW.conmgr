@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LIHINI2005.GenomicAnalysis_DW"
+  DTS:DTSID="{E7A48C50-C8EA-47FB-9406-7792EC02A97E}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=LIHINI2005;Initial Catalog=GenomicAnalysis_DW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-DWBI_Assignment-{E7A48C50-C8EA-47FB-9406-7792EC02A97E}LIHINI2005.GenomicAnalysis_DW;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
